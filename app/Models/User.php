@@ -11,12 +11,6 @@ class User extends Authenticatable
 { 
     use HasApiTokens, HasFactory, Notifiable; 
  
-    // kode model lama tetap dipertahankan 
-}
- 
-class User extends Authenticatable 
-{ 
-    use HasFactory, Notifiable; 
  
     protected $fillable = [ 
         'name', 
